@@ -1,10 +1,9 @@
 package inheritance;
 
-public class AccountType implements account {
+public  class AccountType implements account {
 	double totalbalance;
 	double initialbalance;
 	double rateofintrest=5;
-
 	@Override
 public void deposit(double amount) {
 		// TODO Auto-generated method stub
@@ -32,7 +31,6 @@ public void withdraw(double amount) {
 		// TODO Auto-generated method stub
 		return totalbalance;
 	}
-
 		
 	}
 
