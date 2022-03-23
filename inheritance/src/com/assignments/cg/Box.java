@@ -20,8 +20,7 @@ public class Box {
 		System.out.println("enter the breadth of the box");
 		double b=sc.nextDouble();
 		System.out.println("enter the height of the box");
-		double h=sc
-				.nextDouble();
+		double h=sc.nextDouble();
 		double volume=l*b*h;
 		System.out.println("volume of the box:"+volume);
 		}
