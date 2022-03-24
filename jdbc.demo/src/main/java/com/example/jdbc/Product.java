@@ -17,7 +17,6 @@ public class Product {
 			ResultSet rs=stmt.executeQuery("select *from Product");
 			while(rs.next()) {
 				Product p=new Product();
-				p.setprod
 System.out.println("ID:"+rs.getString("prod_id")+" Name:"+rs.getString("prod_name")+"prod_desc:"+rs.getString("prod_desc")+"price:"+rs.getString("salary"));
 			}
 		}

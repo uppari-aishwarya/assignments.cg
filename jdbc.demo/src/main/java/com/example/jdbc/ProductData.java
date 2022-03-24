@@ -14,12 +14,12 @@ public class ProductData {
 			String userName="postgres";
 			String password="Daddy@1101";
 			Connection con=DriverManager.getConnection(url,userName,password);
-			/*if(con!=null) {
+			if(con!=null) {
 			System.out.println("successfully connected::")	;
 			}
 			else {
 				System.out.println("not successfully connected::")	;
-			}*/
+			}
 		Statement stmt=con.createStatement();
 		deleteRow(stmt);
 		//updateRow(stmt);
